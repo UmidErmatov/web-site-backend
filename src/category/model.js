@@ -14,11 +14,11 @@ module.exports = (sequelize, Sequelize) => {
       },
       color: {
         type: Sequelize.STRING
-      },
+      }
     },
     {
       tableName: "category",
-      timestamps: false
+      timestamps: false,
     }
   );
   return ModelCategories;

@@ -18,5 +18,6 @@ const db = {};
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 db.categories = require('../src/category/model')(sequelize, Sequelize);
+db.image = require('../src/image/image.model')(sequelize, Sequelize);
 
 module.exports = db;
